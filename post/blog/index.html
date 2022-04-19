@@ -188,7 +188,19 @@
 
 </div>
 
-  
+  <h1 id="blog提交流程">BLOG提交流程</h1>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span>myblog: hugo new post<span style="color:#f92672">/</span>blog.md
+</span></span><span style="display:flex;"><span>    	hugo server <span style="color:#f92672">-</span>t blackburn <span style="color:#f92672">--</span>buildDrafts	<span style="color:#75715e">//本地运行
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//git到github
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//生成public,.md-&gt;.html
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>myblog: hugo <span style="color:#f92672">--</span>theme<span style="color:#f92672">=</span>blackburn <span style="color:#f92672">--</span>baseUrl<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://jansonwk.github.io&#34;</span> <span style="color:#f92672">--</span>buildDrafts
+</span></span><span style="display:flex;"><span>	    git init
+</span></span><span style="display:flex;"><span>    	git add .
+</span></span><span style="display:flex;"><span>    	git commit <span style="color:#f92672">-</span>m <span style="color:#e6db74">&#34;第n次提交&#34;</span>
+</span></span><span style="display:flex;"><span>    	git push <span style="color:#f92672">-</span>u origin master
+</span></span></code></pre></div>
   
   <h4><i class="fas fa-share-alt" aria-hidden="true"></i>&nbsp;Share!</h4>
 <ul class="share-buttons">
