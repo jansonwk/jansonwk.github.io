@@ -6,7 +6,16 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Apr 2022 12:37:49 +0800</lastBuildDate><atom:link href="https://jansonwk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Apr 2022 21:45:26 +0800</lastBuildDate><atom:link href="https://jansonwk.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>QT5生成exe文件</title>
+      <link>https://jansonwk.github.io/post/qt5%E7%94%9F%E6%88%90exe%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Tue, 19 Apr 2022 21:45:26 +0800</pubDate>
+      
+      <guid>https://jansonwk.github.io/post/qt5%E7%94%9F%E6%88%90exe%E6%96%87%E4%BB%B6/</guid>
+      <description>//QT5生成exe可执行文件步骤 1.在QT5编辑器中选择release执行 2.配置目录中build路径要与项目根目录同级 3.在生成的release文件夹中找到.exe文件 4.将.exe文件拷贝到一个新目录中 5.桌面搜索框中搜索QT，找到QT(MinGW)并运行，切换至.exe所在的新目录 6.执行windeployqt &amp;#34;name&amp;#34;.exe 7.生成完毕   ![](C:\Users\zzu\Pictures\aae344d58d58251df290f7ccde6e3c94 (1).jpeg)</description>
+    </item>
+    
     <item>
       <title>Second</title>
       <link>https://jansonwk.github.io/post/second/</link>
