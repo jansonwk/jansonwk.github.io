@@ -22,7 +22,7 @@
       <pubDate>Tue, 19 Apr 2022 12:32:08 +0800</pubDate>
       
       <guid>https://jansonwk.github.io/post/blog/</guid>
-      <description>BLOG提交流程 myblog: hugo new post/blog.md  hugo server -t blackburn --buildDrafts	//本地运行   //git到github //生成public,.md-&amp;gt;.html myblog: hugo --theme=blackburn --baseUrl=&amp;#34;https://jansonwk.github.io&amp;#34; --buildDrafts 	git init  git add .  git commit -m &amp;#34;第n次提交&amp;#34;  git push -u origin master </description>
+      <description>BLOG提交流程 myblog: hugo new post/blog.md  hugo server -t blackburn --buildDrafts	//本地运行   //git到github //生成public,.md-&amp;gt;.html myblog: hugo --theme=blackburn --baseUrl=&amp;#34;https://jansonwk.github.io&amp;#34; --buildDrafts 	\public: git init  git add .  git commit -m &amp;#34;第n次提交&amp;#34;  git push -u origin master </description>
     </item>
     
   </channel>
